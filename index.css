@@ -154,10 +154,7 @@ button:hover {
         font-size: larger;
     }
     
-    button:hover {
-        background-color: white;
-        color: green;
-    }
+  
     
     .develop {
         padding:10px 50px;
