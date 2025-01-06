@@ -97,7 +97,7 @@ button:hover {
 }
 
 /* Media queries for responsiveness */
-@media only screen and (max-width:720px) {
+@media only screen and (max-width:480px) {
     .top {
         margin-left: 20%;
     }
