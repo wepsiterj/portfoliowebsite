@@ -171,9 +171,5 @@ button:hover {
     .serh1{
         margin-left: 30%;
     }
-    .develop:hover {
-        background-color: green;
-        color: black;
-        border: 2px solid red;
-    }
+   
 }
