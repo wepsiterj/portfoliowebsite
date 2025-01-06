@@ -1,0 +1,90 @@
+ body {
+            font-family: Arial, sans-serif;
+            background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+        }
+        h1 {
+            text-align: center;
+        }
+
+        /* Style for the headings */
+        .heading {
+            cursor:grabbing;
+            font-size: 24px;
+            color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 50px;
+            text-align: center;
+            width: 30%;
+            display: inline-block;
+        }
+
+        /* Initially blurred subheadings */
+        .subheading {
+            font-size: 18px;
+            color: #2c3e50;
+            margin-top: 5px;
+            filter: blur(4px); /* Apply the blur effect */
+            transition: filter 0.3s ease; /* Smooth transition for unblurring */
+        }
+
+        /* Content sections that will be unlocked */
+        .content {
+            display: none;
+            margin-top: 10px;
+            padding: 20px;
+            background-color: #ecf0f1;
+            border-radius: 5px;
+        }
+
+        .input-container {
+            display: flex; /* Arrange input and button side by side */
+            gap: 10px; /* Space between input and button */
+            justify-content: center;
+        }
+
+        .password-input {
+            padding: 10px;
+            font-size: 16px;
+            width: 40%; /* Limit width to prevent taking up full row */
+            border-radius: 5px;
+        }
+
+        .btn {
+            padding: 10px 15px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .btn:disabled {
+            background-color: #bbb;
+            cursor: not-allowed;
+        }
+
+        /* Layout for all headings in a row */
+        .headings-container {
+            text-align: center;
+        }
+
+        /* whatsapp code  */
+
+        .whatsapp-button {
+            padding: 15px 30px;
+            background-color: #25D366; /* WhatsApp green color */
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: inline-block;
+            text-decoration: none;
+        }
+        .whatsapp-button:hover {
+            background-color: #128C7E; /* Darker green when hovered */
+        }
+
+        /* finish whatsapp code */

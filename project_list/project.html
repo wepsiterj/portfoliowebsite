@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css">
+    <script src="project.js"></script>
+</head>
+<body>
+    <h1>Password Protected Content</h1>
+
+    <!-- whatsapp code -->
+    <h1>Click the button to chat with us on WhatsApp</h1>
+
+    <!-- WhatsApp button -->
+    <a href="https://wa.me/9360857383" class="whatsapp-button" target="_blank">
+       <sub style="color: red;">click to</sub> Chat on WhatsApp to receive the project number and purchase the source code
+    </a>
+    <!-- finish whatsapp code -->
+
+    <!-- Container for the headings -->
+    <div class="headings-container">
+        <!-- Heading 1 -->
+        <div id="heading1" class="heading" onclick="unlockSection('section1')" style="background-color: rgb(240, 160, 13);">
+            <a href="https://wepsiterj.github.io/project1/">Click to Try</a>
+            <p> Click to Enter Password</p>
+            <div id="subheading1" class="subheading">This is the subtitle for Heading 1</div>
+        </div>
+
+        <!-- Heading 2 -->
+        <div id="heading2" class="heading" onclick="unlockSection('section2')" style="background-color: rgb(13, 240, 191);">
+            <a href="https://wepsiterj.github.io/project1/">Click to Try</a>
+            <p> Click to Enter Password</p>
+            <div id="subheading2" class="subheading">This is the subtitle for Heading 2</div>
+        </div>
+
+        <!-- Heading 3 -->
+        <div id="heading3" class="heading" onclick="unlockSection('section3')" style="background-color: rgb(13, 138, 240);">
+            <a href="https://wepsiterj.github.io/project1/">Click to Try</a>
+            <p> Click to Enter Password</p>
+            <div id="subheading3" class="subheading">This is the subtitle for Heading 3</div>
+        </div>
+
+        <div id="heading4" class="heading" onclick="unlockSection('section4')" style="background-color: rgb(13, 138, 240);">
+            <a href="https://wepsiterj.github.io/project1/">Click to Try</a>
+            <p> Click to Enter Password</p>
+            <div id="subheading3" class="subheading">This is the subtitle for Heading 3</div>
+        </div>
+    </div>
+
+    <!-- Content for Heading 1 -->
+    <div id="section1" class="content">
+        <div class="input-container">
+            <input type="password" id="password1" class="password-input" placeholder="Enter password for Heading 1">
+            <button id="btn1" class="btn" onclick="checkPassword('password1', 'btn1', 'section1', 'subheading1', 'https://easytwoeasy.blogspot.com/2024/12/doctype-html-html-lang-en-head-meta.html')">Unlock Content</button>
+        </div>
+    </div>
+
+    <!-- Content for Heading 2 -->
+    <div id="section2" class="content">
+        <div class="input-container">
+            <input type="password" id="password2" class="password-input" placeholder="Enter password for Heading 2">
+            <button id="btn2" class="btn" onclick="checkPassword('password2', 'btn2', 'section2', 'subheading2', 'project1code.html')">Unlock Content</button>
+        </div>
+    </div>
+
+    <!-- Content for Heading 3 -->
+    <div id="section3" class="content">
+        <div class="input-container">
+            <input type="password" id="password3" class="password-input" placeholder="Enter password for Heading 3">
+            <button id="btn3" class="btn" onclick="checkPassword('password3', 'btn3', 'section3', 'subheading3', 'file3.html')">Unlock Content</button>
+        </div>
+    </div>
+
+     <!-- Content for Heading 4 -->
+     <div id="section4" class="content">
+        <div class="input-container">
+            <input type="password" id="password3" class="password-input" placeholder="Enter password for Heading 4">
+            <button id="btn3" class="btn" onclick="checkPassword('password4', 'btn4', 'section4', 'subheading4', 'file3.html')">Unlock Content</button>
+        </div>
+    </div>
+
+</body>
+</html>

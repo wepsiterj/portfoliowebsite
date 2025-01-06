@@ -1,0 +1,179 @@
+/* Global styles */
+body {
+    background-color: black;
+    color: white;
+    text-transform: capitalize;
+}
+
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+header {
+    display: flex;
+}
+
+.top {
+    margin-left: 61%;
+}
+
+.top p {
+    display: inline-block;
+    padding: 12px;
+}
+
+.top a {
+    color: white;
+}
+
+.name span {
+    color: green;
+}
+
+.left {
+    float: left;
+    width: 30%;
+    margin-left: 20%;
+    margin-top: 120px;
+}
+
+.right {
+    width: auto;
+}
+
+.right img {
+    border-radius: 50%;
+    width: 20%;
+    border: 1px solid green;
+    margin-top: 70px;
+    box-shadow: 19px 10px 10px green;
+}
+
+/* About me section */
+.about {
+    margin-top: 6%;
+}
+
+.about p {
+    letter-spacing: 2px;
+    line-height: 25px;
+    border-top: 3px dotted green;
+    border-bottom: 3px dotted green;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 30px;
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid green;
+    background-color: black;
+    color: white;
+    margin: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: white;
+    color: green;
+}
+
+.develop {
+    padding: 30px;
+    border: 2px solid green;
+    color: green;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.develop:hover {
+    background-color: green;
+    color: black;
+    border: 2px solid red;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 480px) {
+    .top {
+        margin-left: 20%;
+    }
+    
+    body:hover{
+        animation-name: p;
+        animation-duration: 2s;
+    }
+    @keyframes p {
+        from{
+ transform: translateX(300px);
+ background-color: grey;
+        }
+    }
+    .left {
+        margin-left: 28%;
+        width: 100%;
+    }
+    .left p{
+        line-height: 40px;
+    }
+
+    .right img {
+        width: 90%;
+        margin: 28%;
+    }
+
+    .about {
+        margin-top: 6%;
+        margin-left: 28%;
+        width: 100%;
+    }
+    
+    .about p {
+        letter-spacing: 2px;
+        line-height: 40px;
+        border-top: 3px dotted green;
+        border-bottom: 3px dotted green;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        padding: 30px;
+    }
+    
+    /* Button styles */
+    button {
+        padding: 10px 50px;
+        border-radius: 10px;
+        border: 1px solid green;
+        background-color: black;
+        color: white;
+        margin: 4px;
+        cursor: pointer;
+        transition: 0.5s;
+        font-size: larger;
+    }
+    
+    button:hover {
+        background-color: white;
+        color: green;
+    }
+    
+    .develop {
+        padding:10px 50px;
+        width: 100%;
+        border: 2px solid green;
+        color: green;
+        border-radius: 20px;
+        transition: 0.5s;
+        margin-left: 13%;
+    }
+    .serh1{
+        margin-left: 30%;
+    }
+    .develop:hover {
+        background-color: green;
+        color: black;
+        border: 2px solid red;
+    }
+}
